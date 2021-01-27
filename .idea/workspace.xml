@@ -1,58 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="581ea7c8-ed60-45c9-b47e-6a5b51c3df64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/banners/biography-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/banners/construction-monitoring.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/banners/defects.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/banners/home-page-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/banners/property-condition-banner.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/Amoco_logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/BP-logo-web.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/Seal_of_the_United_States_Department_of_State.svg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/TISA.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/UNICEF-1-200-200-100-crop.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/bakerbotts.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/brand.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/british-council-logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/citibank-logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/cmm37.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/emblem-00111.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/en_positive_horizontal_logotype_rgb.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/gunay_bank_logo_030813.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/ramco_logo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/saipem.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/statoil.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/corporate-clients-logos/unocal_logo_svg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile-banners/Construction monitoring mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile-banners/Defects mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile-banners/Property condition banner mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile-banners/biography mobile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/mobile-banners/teckinspekt.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/text-icons/ MEP no square.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/text-icons/Fire.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/text-icons/MEP no square.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/text-icons/Moisture.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/text-icons/Structure.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/text-icons/acoustics.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/text-icons/moisture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/text-icons/structure.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/about.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/building-defects-and-causes.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/contact.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/notes-and-observations.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/app/terms-and-conditions.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/services/building-defect-investigation.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/services/construction-monitoring.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/services/property-condition-inspection.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/twig.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/twig.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="581ea7c8-ed60-45c9-b47e-6a5b51c3df64" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -211,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611590006653</updated>
-      <workItem from="1611590012851" duration="11728000" />
+      <workItem from="1611590012851" duration="12089000" />
     </task>
     <servers />
   </component>
