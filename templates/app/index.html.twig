@@ -1,0 +1,124 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Homepage{% endblock %}
+
+{% block body %}
+    <div class="container main">
+        <div class="row justify-content-center">
+
+            <div class="col-md-8">
+                <img src="{{ asset('images/banners/home-page-banner.jpg') }}" class="img-fluid">
+
+                <p>
+                    Welcome to my website. I am consultant architect Martin Newham, I am a member of the Royal
+                    Institute of
+                    British Architects and the Czech Chamber of Architects (ČKA). I offer a range of services that
+                    you will
+                    find listed below. <a href="{{ path('about') }}">Click here</a> to find out more about me.
+
+                    I offer the following range of services for both business to consumer and business to business
+                    clients
+                </p>
+
+                <h5 class="mt-5">Services</h5>
+                <div class="accordion accordion-flush" id="services-accordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="property-condition-inspection-title">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#property-condition-inspection" aria-expanded="false"
+                                    aria-controls="property-condition-inspection">
+                                Property Condition Inspection
+                            </button>
+                        </h2>
+                        <div id="property-condition-inspection" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingOne" data-bs-parent="#services-accordion">
+                            <div class="accordion-body">
+                                Inspections of residential, commercial and industrial property to provide an overview of the
+                                state of the building’s fabric and building systems. <a href="{{ path('service.property-condition-inspection') }}">Click here</a> for more information and
+                                pricing.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="building-defect-investigation-title">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#building-defect-investigation" aria-expanded="false"
+                                    aria-controls="building-defect-investigation">
+                                Building Defect Investigation
+                            </button>
+                        </h2>
+                        <div id="building-defect-investigation" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingOne" data-bs-parent="#services-accordion">
+                            <div class="accordion-body">
+                                This usually looks at a particular issue that is causing problems and/or deterioration
+                                of the fabric of a building. Investigation and analysis of a defect may then be followed
+                                up with the next stage which is the design and specification of remedial works to
+                                address the defect. Sometimes the investigation can be part of a warranty or liability
+                                claim where the investigation documents, together with expert witness statements maybe
+                                used in the pursuit of legal claims.
+                                Please call or send an email to discuss your requirements, <a href="{{ path('contact') }}">click here</a> for contact
+                                details.
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="construction-monitoring-title">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#construction-monitoring" aria-expanded="false"
+                                    aria-controls="construction-monitoring">
+                                Construction monitoring Service
+                            </button>
+                        </h2>
+                        <div id="construction-monitoring" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingOne" data-bs-parent="#services-accordion">
+                            <div class="accordion-body">
+                                If a new construction project is being built, I can provide an independent inspection
+                                and monitoring service that provides verification that the project is delivered in
+                                accordance with construction documents and specifications. Engagement with this service
+                                is best done at a early stage in the project, preferably before construction work has
+                                started.
+                                <a href="{{ path('service.construction-monitoring') }}">Click here</a> for more information.
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="construction-contracts-title">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#construction-contracts" aria-expanded="false"
+                                    aria-controls="construction-contracts">
+                                Preparation of technical specifications and construction contracts
+                            </button>
+                        </h2>
+                        <div id="construction-contracts" class="accordion-collapse collapse"
+                             aria-labelledby="flush-headingOne" data-bs-parent="#services-accordion">
+                            <div class="accordion-body">
+                                Defining the technical characteristics and performance parameters of a construction
+                                project is critical to ensuring that value for money is delivered and that an
+                                appropriate balance is obtained between time, cost and quality. I have extensive
+                                experience in the preparation of international documentation for projects involving
+                                tendering processes, performance specifications, selection of professional consultant
+                                teams, together with general technical specifications across a wide range of project and
+                                construction procurement types.
+                                Please call or send an email to discuss your requirements, <a href="{{ path('contact') }}">click here</a> for contact
+                                details.
+
+                                <a href="{{ path('building-defects-and-causes') }}">Click here</a> for more information about building defects.
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
