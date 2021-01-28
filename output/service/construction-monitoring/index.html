@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>{% block title %}techinspekt{% endblock %}</title>
+    <title>Construction monitoring service</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -9,16 +9,13 @@
 
     <!-- Bootstrap CSS -->
 
-    {% block stylesheets %}
-        <link rel="stylesheet" href="{{ asset('css/main.css') }}">
+            <link rel="stylesheet" href="/css/main.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
               integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
               crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    {% endblock %}
-
-    {% block javascripts %}
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
                 crossorigin="anonymous"></script>
 
@@ -27,13 +24,12 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
         -->
-    {% endblock %}
-</head>
+    </head>
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ path('homepage') }}">techinspekt.com</a>
+        <a class="navbar-brand" href="/">techinspekt.com</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -41,20 +37,39 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ path('homepage') }}">Home</a>
+                    <a class="nav-link" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ path('about') }}">About</a>
+                    <a class="nav-link" aria-current="page" href="/about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{{ path('contact') }}">Contact</a>
+                    <a class="nav-link" aria-current="page" href="/contact">Contact</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
-{% block body %}{% endblock %}
+    <div class="container main">
+        <div class="row justify-content-center">
+
+            <div class="col-md-8">
+                <img src="/images/banners/construction-monitoring.jpg" class="img-fluid">
+                <h5 class="mt-3">Construction monitoring service</h5>
+                <p>
+                    Construction projects both large and small are frequently problematic in respect to ensuring that
+                    what has been contractually agreed between the client and the building contractor is actually
+                    delivered. All too frequently changes are made, materials substituted, short cuts taken and defects
+                    built into the construction. Construction monitoring provides clients with assurance that an
+                    experienced and independent professional is checking the construction site and making a detailed
+                    photographic record of both the quality of the work and also the progress being made on site. Whilst
+                    the construction monitor cannot directly intervene, unless permitted to do so under the construction
+                    contract, the record and comments enable the client to take up the issues with the contractor.
+                </p>
+
+            </div>
+        </div>
+    </div>
 
 
 <footer class="container footer">

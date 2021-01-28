@@ -1,20 +1,67 @@
-{% extends 'base.html.twig' %}
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Homepage</title>
 
-{% block title %}Homepage{% endblock %}
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% block body %}
+    <!-- Bootstrap CSS -->
+
+            <link rel="stylesheet" href="/css/main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+              integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+              crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+                crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        -->
+    </head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/">techinspekt.com</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="/contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
     <div class="container main">
         <div class="row justify-content-center">
 
             <div class="col-md-8">
-                <img src="{{ asset('images/banners/home-page-banner.jpg') }}" class="img-fluid">
+                <img src="/images/banners/home-page-banner.jpg" class="img-fluid">
 
                 <p class="mt-3">
                     Welcome to my website. I am consultant architect Martin Newham, I am a member of the Royal
                     Institute of
                     British Architects and the Czech Chamber of Architects (ČKA). I offer a range of services that
                     you will
-                    find listed below. <a href="{{ path('about') }}">Click here</a> to find out more about me.
+                    find listed below. <a href="/about">Click here</a> to find out more about me.
 
                     I offer the following range of services for both business to consumer and business to business
                     clients
@@ -36,7 +83,7 @@
                                 Inspections of residential, commercial and industrial property to provide an overview of
                                 the
                                 state of the building’s fabric and building systems. <a
-                                        href="{{ path('service.property-condition-inspection') }}">Click here</a> for
+                                        href="/service/property-condition-inspection">Click here</a> for
                                 more information and
                                 pricing.
                             </div>
@@ -59,12 +106,12 @@
                                 of the fabric of a building. Investigation and analysis of a defect may then be followed
                                 up with the next stage which is the design and specification of remedial works to
                                 address the defect. For more information about building defects <a
-                                        href="{{ path('service.building-defect-investigation') }}">click here</a>. Sometimes the
+                                        href="/service/building-defect-investigation">click here</a>. Sometimes the
                                 investigation can be part of a warranty or liability
                                 claim where the investigation documents, together with expert witness statements maybe
                                 used in the pursuit of legal claims.
                                 Please call or send an email to discuss your requirements, <a
-                                        href="{{ path('contact') }}">click here</a> for contact
+                                        href="/contact">click here</a> for contact
                                 details.
                             </div>
                         </div>
@@ -87,7 +134,7 @@
                                 accordance with construction documents and specifications. Engagement with this service
                                 is best done at a early stage in the project, preferably before construction work has
                                 started.
-                                <a href="{{ path('service.construction-monitoring') }}">Click here</a> for more
+                                <a href="/service/construction-monitoring">Click here</a> for more
                                 information.
                             </div>
                         </div>
@@ -113,7 +160,7 @@
                                 teams, together with general technical specifications across a wide range of project and
                                 construction procurement types.
                                 Please call or send an email to discuss your requirements, <a
-                                        href="{{ path('contact') }}">click here</a> for contact
+                                        href="/contact">click here</a> for contact
                                 details.
                             </div>
                         </div>
@@ -126,4 +173,15 @@
             </div>
         </div>
     </div>
-{% endblock %}
+
+
+<footer class="container footer">
+    <div class="row justify-content-center">
+        <div class="col-md-12 text-center">
+            © 2021 techinspekt.com
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

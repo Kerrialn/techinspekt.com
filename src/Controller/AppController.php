@@ -34,14 +34,6 @@ class AppController extends AbstractController
     }
 
     /**
-     * @Route("/building-defects-and-causes", name="building-defects-and-causes")
-     */
-    public function buildingDefectsAndCauses(): Response
-    {
-        return $this->render('app/building-defects-and-causes.html.twig');
-    }
-
-    /**
      * @Route("/service/property-condition-inspection", name="service.property-condition-inspection")
      */
     public function propertyConditionInspection(): Response
