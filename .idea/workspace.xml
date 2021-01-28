@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="581ea7c8-ed60-45c9-b47e-6a5b51c3df64" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/text-icons/ MEP no square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/text-icons/Fire.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/text-icons/fire.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/text-icons/MEP no square.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/text-icons/MEP.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/text-icons/Moisture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/text-icons/Structure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/text-icons/moisture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/text-icons/structure.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/AppController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AppController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/about.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/building-defects-and-causes.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/services/building-defect-investigation.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services/building-defect-investigation.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/services/construction-monitoring.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services/construction-monitoring.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/services/property-condition-inspection.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/services/property-condition-inspection.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611590006653</updated>
       <workItem from="1611590012851" duration="12392000" />
-      <workItem from="1611824741504" duration="5299000" />
+      <workItem from="1611824741504" duration="5763000" />
     </task>
     <servers />
   </component>
