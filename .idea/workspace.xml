@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="581ea7c8-ed60-45c9-b47e-6a5b51c3df64" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/building-defects-and-causes/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/contact/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/banners/biography-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/banners/construction-monitoring.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/banners/defects.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/banners/home-page-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/banners/property-condition-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/Amoco_logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/BP-logo-web.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/Seal_of_the_United_States_Department_of_State.svg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/TISA.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/UNICEF-1-200-200-100-crop.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/bakerbotts.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/brand.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/british-council-logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/citibank-logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/cmm37.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/emblem-00111.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/en_positive_horizontal_logotype_rgb.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/gunay_bank_logo_030813.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/ramco_logo.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/saipem.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/statoil.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/corporate-clients-logos/unocal_logo_svg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/mobile-banners/Construction monitoring mobile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/mobile-banners/Defects mobile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/mobile-banners/Property condition banner mobile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/mobile-banners/biography mobile.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/mobile-banners/teckinspekt.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/text-icons/ MEP no square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/text-icons/Fire.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/text-icons/MEP no square.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/text-icons/MEP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/text-icons/Moisture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/text-icons/Structure.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/text-icons/acoustics.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/text-icons/moisture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/text-icons/structure.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/images/text-icons/water.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/notes-and-observations/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/service/building-defect-investigation/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/service/construction-monitoring/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/service/property-condition-inspection/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/terms-and-conditions/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/app/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/about.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611590006653</updated>
       <workItem from="1611590012851" duration="12392000" />
-      <workItem from="1611824741504" duration="6096000" />
+      <workItem from="1611824741504" duration="6370000" />
     </task>
     <servers />
   </component>
