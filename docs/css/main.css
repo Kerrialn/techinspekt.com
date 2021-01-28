@@ -1,3 +1,14 @@
+a{
+    color: #000000!important;
+    text-decoration: none!important;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #999999!important;
+    text-decoration: none!important;
+}
+
 .main{
     min-height: 100vh;
 }
@@ -9,4 +20,9 @@
 
 img{
     margin: 20px 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000000!important;
+    background-color: #DDDDDD!important;
 }
